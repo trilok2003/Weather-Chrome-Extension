@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+
+    "name": "Trilok Weather App",
+    "description": "Trilok Singh Thakur's weather app",
+    "version": "1.0.0",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "trilok weather app extension"
+    },
+    "author": "Trilok Singh Thakur"
+}

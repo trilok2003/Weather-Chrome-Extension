@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+body{
+    min-width: 330px;
+    height: 100vh;
+    width: 100vw;
+    background: #222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-radius: 1rem;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    width: 22rem;
+    text-align: center;
+    padding: 2rem;
+}
+.H-w-Box{
+    display: flex;
+    justify-content: space-between;
+}
+.inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.inputBox #searchBox{
+    height: 2.5rem;
+    width: 75%;
+    border-radius: 1.2rem;
+    border: 1px solid whitesmoke;
+    padding-left: 0.6rem;
+    color: rgb(88, 86, 86);
+    font-size: 1.2rem;
+}
+#serachBtn{
+    height: 2.5rem;
+    width: 17%;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#serachBtn img{
+    height: 60%;
+    width: 50%;
+}
+.tempBox{
+    margin: 0 0 2rem 0;
+}
+.tempBox img{
+    height: 10rem;
+    width: auto;
+}
+.tempBox h1{
+    font-size: 3.5rem;
+}
+.tempBox h2{
+    font-size: 2rem;
+}
+.humidityBox,.windBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.humidityBox img,.windBox img{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.humidityBox h3,.windBox h3{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.humidityBox h4,.windBox h4{
+    font-size: 1rem;
+}
+.tempBox,.H-w-Box{
+    display: none;
+}
